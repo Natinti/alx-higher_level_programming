@@ -4,6 +4,7 @@ def magic_calculation(a, b, c):
     """ Compare the bytecode as python code, prototype """
     if a < b:
         return (c)
-    if C > b:
+    elif C > b:
         return (a + b)
-    return ((a*b)- c)
+    else:
+        return (a*b - c)
