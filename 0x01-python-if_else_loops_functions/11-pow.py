@@ -2,4 +2,4 @@
 
 def pow(a, b):
     """ Print the power pf numbers """
-    return(a ** b)
+    return (a ** b)
