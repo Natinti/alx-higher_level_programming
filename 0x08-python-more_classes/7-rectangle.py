@@ -65,6 +65,13 @@ class Rectangle:
             return ""
         return ("\n".join(["".join(["#" for i in range(self.__width)])
                 for j in range(self.__height)]))
+        rectangle.append(str(self.print_symbol))
+        rectangle.append("\n")
+
+        # this will remove blank line
+        rectangle.pop()
+
+        return "".join(rectangle)
 
     def __repr__(self):
         """ return a string representation of a rectangle
